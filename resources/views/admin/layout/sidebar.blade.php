@@ -1,10 +1,10 @@
  <!-- Page Sidebar Start-->
- <div class="sidebar-wrapper" data-layout="stroke-svg">
-    <div class="logo-wrapper"><a href="index.html"><img class="img-fluid" src="{{ asset('admin/assets/images/logo/logo.png') }}" alt=""></a>
+ <div class="sidebar-wrapper" data-layout="stroke-svg" style="border-bottom-right-radius: 0px; border-top-right-radius: 0px">
+    <div class="logo-wrapper"><a href="index.html"><img class="img-fluid w-75" src="{{ asset('admin/sidebarlogo1.png') }}" alt=""></a>
       <div class="back-btn"><i class="fa fa-angle-left"> </i></div>
       <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="grid"> </i></div>
     </div>
-    <div class="logo-icon-wrapper"><a href="index.html"><img class="img-fluid" src="{{ asset('admin/assets/images/logo/logo-icon.png') }}" alt=""></a></div>
+    <div class="logo-icon-wrapper"><a href="index.html"><img class="img-fluid" src="{{ asset('admin/sidebarlogo.png') }}" alt=""></a></div>
     <nav class="sidebar-main">
       <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
       <div id="sidebar-menu">
@@ -222,8 +222,6 @@
                 <use href="../assets/svg/icon-sprite.svg#fill-form"> </use>
               </svg><span>Forms</span></a>
             <ul class="sidebar-submenu">
-
-              <li><a href="{{ route('form') }}">Form layout</a>
 
             </ul>
           </li>
