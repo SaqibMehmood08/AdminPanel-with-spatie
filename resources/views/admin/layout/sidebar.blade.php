@@ -1,10 +1,19 @@
  <!-- Page Sidebar Start-->
+<<<<<<< HEAD
  <div class="sidebar-wrapper" data-layout="stroke-svg">
     <div class="logo-wrapper"><a href="index.html"><img class="img-fluid" src="" alt=""></a>
       <div class="back-btn"><i class="fa fa-angle-left"> </i></div>
       <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="grid"> </i></div>
     </div>
     <div class="logo-icon-wrapper"><a href="index.html"><img class="img-fluid" src="" alt=""></a></div>
+=======
+ <div class="sidebar-wrapper" data-layout="stroke-svg" style="border-bottom-right-radius: 0px; border-top-right-radius: 0px">
+    <div class="logo-wrapper"><a href="index.html"><img class="img-fluid w-75" src="{{ asset('admin/sidebarlogo1.png') }}" alt=""></a>
+      <div class="back-btn"><i class="fa fa-angle-left"> </i></div>
+      <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="grid"> </i></div>
+    </div>
+    <div class="logo-icon-wrapper"><a href="index.html"><img class="img-fluid" src="{{ asset('admin/sidebarlogo.png') }}" alt=""></a></div>
+>>>>>>> origin/hassan
     <nav class="sidebar-main">
       <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
       <div id="sidebar-menu">
@@ -223,7 +232,10 @@
               </svg><span>Forms</span></a>
             <ul class="sidebar-submenu">
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/hassan
             </ul>
           </li>
           <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="#">

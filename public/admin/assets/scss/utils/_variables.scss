@@ -2,28 +2,28 @@
 $theme-font-color: #242934;
 $theme-body-font-color: #051A1A;
 $theme-body-sub-title-color: #FFFFFF;
-$body-color: #F5F5F5;  
+$body-color: #F5F5F5;
 $main-body-color: #F5F5F5;
 
-// Theme colors variables 
-$primary-color: #006666; 
-$secondary-color: #FE6A49; 
+// Theme colors variables
+$primary-color: #006666;
+$secondary-color: #FE6A49;
 $success-color: #00AC46;
-$info-color : #173878; 
-$warning-color: #FFAE1A; 
-$danger-color: #FE6A49; 
-$light-color : #E6E9EB; 
+$info-color : #173878;
+$warning-color: #FFAE1A;
+$danger-color: #FE6A49;
+// $light-color : #E6E9EB; 
 $badge-light-color: #52526c;
-$light-gray : #ecf3fa; 
-$light-widget-border: #EFEEFF; 
+$light-gray : #ecf3fa;
+$light-widget-border: #EFEEFF;
 $light-semi-gray :#efefef;
-$font-gray-color: #6C757D; 
-$dark-light :$theme-font-color; 
+$font-gray-color: #6C757D;
+$dark-light :$theme-font-color;
 $dark-gray: #898989;
 $dark-color : #2c323f;
-$dark-color-light: #2c323fb8; 
+$dark-color-light: #2c323fb8;
 $gray-60 :#E6E9EB;
-$card-body-color : #f9f9fa; 
+$card-body-color : #f9f9fa;
 $transparent-color: transparent;
 $auth-bg-color: #fafafa;
 $light : #fdfeff;
@@ -49,34 +49,34 @@ $light-info: rgba($info-color, 0.3);
 $light-warning: rgba($warning-color, 0.3);
 $light-danger: rgba($danger-color, 0.3);
 $light-white: #F9F9FB;
-$light-dark: #EAEBF2; 
+$light-dark: #EAEBF2;
 $info-light: #44C6C6;
-$light-txt-color : #86909C; 
-// gradient colors 
+$light-txt-color : #86909C;
+// gradient colors
 $gradient-primary: linear-gradient(26deg, var(--theme-deafult) 0%, #006666 100%);
 $gradient-bg-primary: linear-gradient(103.75deg, #173878 -13.9%, var(--theme-deafult) 79.68%);
 $gradient-card-bg-primary: radial-gradient(circle, rgba(27,174,174,1) 2%, rgba(26,148,148,1) 50%, rgba(4,143,143,1) 100%);;
 $gradient-landing-color : linear-gradient(180deg, #24B5B5 0%, #228585 100%);
 
-// light colors 
+// light colors
 $primary-light-color: #006666;
-$secondary-light-color: #FE6A49;   
-$warning-light-color: #FFAE1A; 
-$danger-light-color: #FE6A49; 
-$light-light-color : #E6E9EB; 
+$secondary-light-color: #FE6A49;
+$warning-light-color: #FFAE1A;
+$danger-light-color: #FE6A49;
+$light-light-color : #E6E9EB;
 
 //social colors
 $fb: #50598e;
-$twitter: #6fa2d8;  
+$twitter: #6fa2d8;
 $google-plus: #c64e40;
 $linkedin: #0077B5;
 
-// soical table  
+// soical table
 $fb-color: #2F84F4;
 $insta-color: #FC971E;
 $pintrest-color: $secondary-color;
 $twitter-color: #57B9F6;
-$youtube-color: #F42F2F; 
+$youtube-color: #F42F2F;
 
 //error input color start
 $light-body-bg-color: #fafdff;
@@ -227,7 +227,7 @@ $footer_bg_color : $white;
 $footer_box_shadow : 0 0 20px rgba($semi-dark, 0.1);
 $footer_dark_color : $theme-font-color;
 $footer_dark__txt_color : $white;
- 
+
 //form settings
 $form-group-margin-bottom :20px;
 $sm-form-margin-bottom : 14px;
@@ -238,7 +238,7 @@ $form-placeholder-font-weight : 100;
 $form-input-border-color : $light-semi-gray;
 $form-input-bg-color : $white;
 
-//Tour settings 
+//Tour settings
 $tour-color: var(--theme-deafult);
 
 //sidabr main settings
@@ -298,7 +298,7 @@ $main-header-shadow-1: 0px 4px 40px rgba(39, 32, 120, 0.1);
 //page settings
 $page-body-padding : 25px 15px;
 $page-body-bg-color: $light-color;
-$page-body-margin-bottom: 0px; 
+$page-body-margin-bottom: 0px;
 $page-title-padding : 20px 30px;
 $common-box-shadow: 2px 3.464px 8px 0px rgba(22, 145, 248, 0.18);
 $page-title-font-size: 24px;
@@ -327,11 +327,11 @@ $box-layout-space : 40px;
 
 // typography variables
 $heading_1: 28px;
-$heading_2: 26px; 
-$heading_3: 24px; 
+$heading_2: 26px;
+$heading_3: 24px;
 $heading_4: 20px;
-$heading_5: 16px; 
-$heading_6: 15px; 
+$heading_5: 16px;
+$heading_6: 15px;
 $common_letter_spacing: 0.6px;
 
 
