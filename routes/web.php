@@ -17,5 +17,5 @@ Route::middleware('auth')->group(function () {
     Route::get('/logout',[LoginController::class,'logout'])->name('logout');
     Route::get('/dashboard',[dashboardController::class,'index'])->name('index');
 
-    Route::get('/form',[dashboardController::class,'form'])->name('form');
+    // Route::get('/form',[dashboardController::class,'form'])->name('form');
 });
