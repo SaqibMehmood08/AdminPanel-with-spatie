@@ -1994,7 +1994,9 @@ svg.f-light {
 .btn-outline-light-2x:hover, .btn-outline-light-2x:focus, .btn-outline-light-2x:active, .btn-outline-light-2x.active {
   color: #051A1A !important;
 }
-
+select{
+    border: 1px solid  rgb(222, 220, 220) !;
+}
 .btn-check {
   color: #006666 !important;
 }
@@ -2115,6 +2117,16 @@ svg.f-light {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
+.btn{
+    background-color: #2B2A2A;
+    color: white;
+}
+.btn-table:hover{
+    background-color: #2B2A2A;
+    color: white !important;
+
+}
+
 
 .btn-outline-success {
   border-color: #00AC46;
@@ -3697,6 +3709,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+  color: #2B2A2A;
 }
 
 h1 {
@@ -3827,9 +3840,9 @@ svg {
   vertical-align: baseline;
 }
 
-input:focus {
+/* input:focus {
   outline-color: transparent;
-}
+} */
 
 label {
   margin-bottom: 0.5rem;
@@ -8144,7 +8157,8 @@ btn-group .dropdown-wrapper .input-group .input-group-text {
 }
 
 input {
-  cursor: pointer;
+    border: 1px solid rgb(222, 220, 220);
+
 }
 
 textarea {

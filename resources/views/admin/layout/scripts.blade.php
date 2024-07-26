@@ -31,6 +31,13 @@
  <script src="{{ asset('admin/assets/js/datepicker/date-picker/datepicker.custom.js') }}"></script>
  <script src="{{ asset('admin/assets/js/dashboard/dashboard_3.js') }}"></script>
  <!-- Plugins JS Ends-->
+ <script src="{{ asset('admin/assets/js/datatable/datatables/jquery.dataTables.min.js') }}"></script>
+ <script src="{{ asset('admin/assets/js/datatable/datatables/datatable.custom.js') }}"></script>
  <!-- Theme js-->
  <script src="{{ asset('admin/assets/js/script.js') }}"></script>
  {{-- <script src="{{ asset('admin/assets/js/theme-customizer/customizer.js') }}"></script> --}}
+
+ {{-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> --}}
+ <script type="text/javascript" src="https://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+
+<script src="{{ asset('admin/assets/js/custom-js/custom.js') }}"></script>
