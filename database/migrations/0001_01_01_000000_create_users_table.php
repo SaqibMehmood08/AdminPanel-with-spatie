@@ -13,11 +13,26 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            // $table->string('name');
             $table->string('username')->nullable();
-            $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
+            $table->enum('is_published', [0, 1])->default(1);
+            $table->string('state')->nullable();
+            $table->string('first_name')->nullable();
+            $table->integer('country_id')->nullable();
+            $table->string('state')->nullable();
+            $table->string('last_name')->nullable();
+            $table->string('phone')->nullable();
+            $table->string('address1')->nullable();
+            $table->string('address2')->nullable();
+            $table->string('email')->nullable();
+            $table->string('password')->nullable();
+            $table->integer('role_id')->nullable();
+            $table->string('designation');
+            $table->string('gender')->nullable();
+            $table->enum('is_franchiser', [0, 1])->default(0);
+            $table->string('image')->nullable();
+
+
             $table->rememberToken();
             $table->timestamps();
         });

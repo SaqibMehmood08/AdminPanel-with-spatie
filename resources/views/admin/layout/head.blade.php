@@ -6,7 +6,7 @@
 <meta name="author" content="pixelstrap">
 <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon">
 <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
-<title>Dinehome</title>
+<title>DineHome- Admin</title>
 <!-- Google font-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -27,6 +27,8 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('admin//assets/css/vendors/animate.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('admin/assets/css/vendors/echart.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('admin/assets/css/vendors/date-picker.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('admin/assets/css/vendors/datatables.css') }}">
+
 <!-- Plugins css Ends-->
 <!-- Bootstrap css-->
 <link rel="stylesheet" type="text/css" href="{{ asset('admin/assets/css/vendors/bootstrap.css') }}">
@@ -35,4 +37,6 @@
 <link id="color" rel="stylesheet" href="{{ asset('admin/assets/css/color-1.css') }}" media="screen">
 <!-- Responsive css-->
 <link rel="stylesheet" type="text/css" href="{{ asset('admin/assets/css/responsive.css') }}">
-<script src="/admin/custom_scripts/custom_javascript.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="{{ asset('admin/assets/css/custom-css.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />

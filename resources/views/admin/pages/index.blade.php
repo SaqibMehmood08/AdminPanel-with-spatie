@@ -93,24 +93,7 @@
                 </div>
                 <div class="col-xl-4 col-md-6 box-col-none">
                     <div class="row">
-                        <div class="col-md-12 col-sm-6">
-                            <div class="card boost-up-card overflow-hidden">
-                                <div class="p-4">
-                                    <div class="boostup-name row">
-                                        <h6 class="text-white f-28 f-w-700 mb-2 z-1 ">Boost up your sale</h6>
-                                        <p class="text-white f-14 f-w-500 col-9 line-clamp">
-                                            by upgrading your account you can increase your sale by 30% more.</p>
-                                    </div>
-                                    <div class="img-boostup"><img class="img-boostup-img-1"
-                                            src="../assets/images/dashboard-3/boostup1.png" alt="boostup"><img
-                                            class="img-boostup-img-2" src="../assets/images/dashboard-3/boostup2.png"
-                                            alt="boostup"></div>
-                                    <div class="btn-showcase text-start"> <a href="pricing.html">
-                                            <button class="btn btn-pill btn-outline-light-2x b-r-8" type="button">Upgrade
-                                                Now</button></a></div>
-                                </div>
-                            </div>
-                        </div>
+                
                         <div class="col-md-12 col-sm-6">
                             <div class="card">
                                 <div class="card-header card-no-border total-revenue pb-0">

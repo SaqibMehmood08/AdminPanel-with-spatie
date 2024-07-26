@@ -1,9 +1,9 @@
  <!-- footer start-->
  <footer class="footer">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 footer-copyright text-center">
-          <p class="mb-0">Copyright 2024 © Riho theme by pixelstrap  </p>
+      <div class="row mt-5">
+        <div class="col-md-12 footer-copyright text-end">
+          <p class="mb-0">Design and Developed by :<a href="">Hello World Technologies</a></p>
         </div>
       </div>
     </div>
